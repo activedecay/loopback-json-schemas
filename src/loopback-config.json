@@ -40,7 +40,10 @@
           "default": "false"
         },
         "context" : {
-          "type": "object",
+          "type": [
+            "boolean",
+            "object"
+          ],
           "properties" : {
             "enableHttpContext" : {
               "type":"boolean",
